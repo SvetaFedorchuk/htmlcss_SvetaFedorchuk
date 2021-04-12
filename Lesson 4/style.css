@@ -1,0 +1,98 @@
+/*Кубы(черные+синие)*/
+.blackcub1,
+.blackcub2,
+.blackcub3 {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin: 10px;  
+}
+.bluecub1,
+.bluecub2{
+    width: 100px;
+    height: 100px;
+    background-color:blue;
+    margin: 10px;
+}
+/*Структура файлов*/
+.structure {
+    font-family:'Times New Roman', Times, serif; 
+    width: 450px;
+    background-color: green;
+    color: white;
+    margin: 25px 0 10px 10px;
+}
+.heading {
+    padding: 20px 0 20px 5px;
+    font-size: 25px;
+}
+.text1 {
+    padding: 5px 0 20px 5px;
+    font-size: 15px;
+    line-height: 18px;
+}
+/*Многочлен степени n*/
+.block1 {
+    margin: 15px;
+}
+p {
+    padding: 15px;
+    font-size: 20px;
+}
+.formula {
+    font-style: italic;
+    font-size: 30px;
+}
+sub{
+    color: blue;
+    font-size: 15px;
+    font-style: normal;
+}
+sup{
+    color: red;
+    font-size: 15px;
+    font-style: normal;
+}
+/*Ссылки*/
+.link {
+    background-color: rgb(56, 53, 53);
+    margin: 15px;
+    width: 400px;
+    height: 60px;
+    font-size: 28px;
+}
+.center {
+    text-align: center;
+    padding: 15px;
+}
+.link1 {
+    color: red;  
+}
+.link2 {
+    color: blue;
+}
+.link3 {
+    color: chartreuse;
+}
+span {
+    color: white;
+}
+/*Евгений Евтушенко*/
+.block2{
+    text-align: center;
+    width: 400px;
+    margin: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+.poems{
+    color: red;
+    font-size: 35px;
+    margin: 20px;
+}
+.text2, 
+.text3 {
+    font-size: 25px;
+    line-height: 30px;
+    text-align:left;
+    margin: 0px 0px 0px 20px;
+}
