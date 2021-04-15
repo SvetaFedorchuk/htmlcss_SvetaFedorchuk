@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.mainblock {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+/*Header*/
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B0A42;
+    text-align: center;
+    margin: 30px 68px 0 80px;  
+}
+.header__logo-link {
+    margin-right: 97px;
+}
+.header__menu {
+    display: flex;
+    margin-right: 752px;
+}
+.header__menu-list {
+    margin-right: 40px;
+}
+.header__menu-list:last-child {
+    margin-right: 0;
+}
+.header__menu-list:first-child {
+    font-weight:bold;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header__Sign-in {
+    margin-right: 40px;
+}
+.header__Sign-in:hover {
+    color: rgb(15, 226, 33);
+}
+.header__Sign-up {
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 18px 31px;
+    cursor: pointer;
+    background: #33A2E0;
+    border-radius: 6px;
+    border: 0;
+    transition: all .3s;
+    width: 120px;
+}
+.header__Sign-up:hover {
+    background: blueviolet;
+}
+/*Work*/
+.work {
+    position: relative;
+    display: flex;
+    background-repeat: no-repeat;
+    
+}
+.work__title {
+    max-width: 495px;
+    font-family: Ramaraja;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 76px;
+    color: #1B0A42;
+    border: 1px solid #fdfcfc;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 208px 64px 18px 200px;
+}
+.work__text {
+    max-width: 559px;
+    margin: 0 0 53px 200px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #9A9A9A;
+}
+.work__button {
+    color: #FFFFFF;
+    background: #33A2E0;
+    border-radius: 6px;
+    padding: 18px 32px;
+    margin: 0 407px 0 200px;
+    border: 0;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;
+    width: 152px;
+}
+.work__button:hover {
+    background: violet;
+    cursor: pointer;
+}
+.work__img {
+    padding: 131px 45px 156px 0;
+}
