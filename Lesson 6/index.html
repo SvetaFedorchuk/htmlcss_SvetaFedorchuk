@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms-HW6</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="#" method="POST">
+        <fieldset>
+        <legend>Contact manager</legend>
+        <div class="form__main">
+            <div class="form__contact">
+                <ul class="form__contact-menu">
+                    <li class="form__contact-list"><label for="first name">First Name:<sup>*</sup></label>
+                        <input type="text" name="first name" id="first name"></li>
+                    <li class="form__contact-list"><label for="Last name">Last name:<sup>*</sup></label>
+                        <input type="text" name="Last name" id="Last name"></li>
+                    <li class="form__contact-list"><label for="address">Address:</label>
+                        <textarea name="text" id="Address" cols="30" rows="10"></textarea></li>
+                    <li class="form__contact-list" ><label for="city">City:</label>
+                        <input type="text" name="city" id="city"></li>
+                    <li class="form__contact-list"><label for="state">State:</label>
+                        <select size="1" name="select">
+                            <option>-Select-</option> 
+                            <option value="California">Калифорния</option>
+                            <option value="Hawaii">Гаваи</option>
+                            <option value="Nevada">Невада</option>
+                        </select></li>
+                    <li class="form__contact-list"><label for="zip">Zip:</label>
+                        <input type="text" name="zip" id="zip"></li>
+                    <li class="form__contact-list"><label for="home phone">Home Phone:</label>
+                        <input class="form__phone" type="tel" name="Home Phone" id="Home Phone" placeholder="Введите телефон"></li>
+                    <li class="form__contact-list"><label for="Work Phone">Work Phone:<sup>*</sup></label>
+                        <input type="tel" name="Work Phone" id="Work Phone" placeholder="Введите телефон"></li>
+                    <li class="form__contact-list"><label for="Fax Number">Fax Number:</label>
+                        <input class="form__phone" type="tel" name="Fax Number" id="Fax Number"></li>
+                    <li class="form__contact-list"><label for="Website">Website:</label></li>
+                        <div class="form__contact-website">
+                    <li class="form__contact-list-web"><label class="form__contact-web" for="url">URL:</label>
+                        <input type="url" name="url" id="url"></li>
+                    <li class="form__contact-list-web"><label for="link name">Link name:</label>
+                       <input type="link" name="link name" id="link name"></li>
+                        </div>
+                    <li class="form__contact-list"><label for="E-mail Address">Email Address:<sup>*</sup></label>
+                    <input type="email" name="E-mail Address" id="E-mail Address"></li>
+                </ul>
+            </div>    
+            <div class="form__question">
+                <ul class="form__question-menu">
+                    <li class="form__question-list"><label for="question">When is the best time to contact you?</label><br>
+                        <div class="form__radio">
+                            <input type="radio" name="radio1" value="morning"><span>Morning</span> 
+                            <input type="radio" name="radio1" value="Afternoon"><span>Afternoon</span>
+                            <input type="radio" name="radio1" value="Evening"><span>Evening</span> 
+                        </div>
+                    </li>
+                    <li class="form__question-list"><label for="question">What is the best way to contact you?</label><br>
+                        <div class="form__radio">
+                            <input type="radio" name="radio2" value="phone"><span>Phone</span>
+                            <input type="radio" name="radio2" value="email"><span>Email</span> 
+                            <input type="radio" name="radio2" value="Fax"><span>Fax</span> 
+                        </div>
+                    </li>
+                    <li class="form__question-list"><label for="msg">Message:</label>
+                        <textarea name="msg" id="message" cols="30" rows="10"></textarea>
+                    </li>
+                </ul>
+            </div>
+        </div> 
+        <div class="form__button">
+            <button class="form__button-style" type="submit">Submit</button>
+            <button class="form__button-style" type="reset">Reset</button>
+        </div>
+        </fieldset>
+    </form>
+</body>
+</html>

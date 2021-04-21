@@ -1,0 +1,91 @@
+* {
+   box-sizing: border-box;
+}
+body {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 15px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/*Form__contact*/
+
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+    margin-bottom: 20px;
+} 
+li {
+    margin-bottom: 20px;
+}
+sup {
+    color: red;
+    font-weight: bold;
+}
+legend {
+    background: rgb(170, 214, 82);
+    height: 40px;
+    padding: 7px 0 7px 7px;
+    font-size: 22px;
+    font-weight: bold; 
+    width: 100%;
+ }
+
+input,
+textarea,
+select {
+    width: 300px;
+    box-sizing: border-box;
+    margin: 0 0 0 100px;
+    vertical-align: top;
+}
+input:focus,
+textarea:focus {
+    box-shadow: 2px 2px 2px 0 rgb(235, 133, 133);
+}
+
+.form__main{
+    margin: 15px 0 0 10px;
+    display:flex;
+    justify-content: right;
+}
+.form__phone {
+    max-width: 150px;
+}
+/*Form__question*/
+
+
+.form__question-menu {
+    width: 500px;
+    margin: 0 0 0 250px; 
+}
+
+.form__question-list  label {
+    width: 220px;
+}
+/*Form__Button*/
+
+.form__button {
+    text-align: center;
+    background: rgb(211, 209, 209);
+    height: 45px;
+}
+.form__button-style {
+    color: white;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background:rgb(140, 170, 79);
+    margin: 10px 2px;
+    border: 0;
+    cursor: pointer;
+    transition: all .3s;
+    padding: 3px 30px 3px 30px;
+}
+.form__button-style:hover {
+    background:rgb(76, 104, 20);
+}
