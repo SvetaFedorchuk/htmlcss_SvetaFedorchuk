@@ -14,9 +14,9 @@ ul {
 
 label {
     display: inline-block;
-    width: 100px;
     text-align: left;
     margin-bottom: 20px;
+    width: 100px;
 } 
 li {
     margin-bottom: 20px;
@@ -39,7 +39,7 @@ textarea,
 select {
     width: 300px;
     box-sizing: border-box;
-    margin: 0 0 0 100px;
+    margin: 0 0 10px 100px;
     vertical-align: top;
 }
 input:focus,
@@ -54,9 +54,24 @@ textarea:focus {
 }
 .form__phone {
     max-width: 150px;
+    margin: 0 150px 20px 0;
 }
+
+.form__contact-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__contact-web {
+    width: 150px;
+    margin: 0 0 20px 0; 
+}
+ 
 /*Form__question*/
 
+.form__message {
+    margin: 0 0 0 150px;  
+}
 
 .form__question-menu {
     width: 500px;
@@ -72,6 +87,7 @@ textarea:focus {
     text-align: center;
     background: rgb(211, 209, 209);
     height: 45px;
+    
 }
 .form__button-style {
     color: white;

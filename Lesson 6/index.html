@@ -39,35 +39,62 @@
                         <input type="tel" name="Work Phone" id="Work Phone" placeholder="Введите телефон"></li>
                     <li class="form__contact-list"><label for="Fax Number">Fax Number:</label>
                         <input class="form__phone" type="tel" name="Fax Number" id="Fax Number"></li>
-                    <li class="form__contact-list"><label for="Website">Website:</label></li>
-                        <div class="form__contact-website">
-                    <li class="form__contact-list-web"><label class="form__contact-web" for="url">URL:</label>
-                        <input type="url" name="url" id="url"></li>
-                    <li class="form__contact-list-web"><label for="link name">Link name:</label>
-                       <input type="link" name="link name" id="link name"></li>
+                    
+                    <li class="form__contact-list">
+                        <p>Website:</p>
+                        <div>
+                            <div >
+                                <label class="form__url" for="url">URL:</label>
+                                <input class="form__contact-web" type="url" name="url" id="url">
+                            </div>
+                            <div>
+                                <label for="link name">Link name:</label>
+                                <input class="form__contact-web" type="link" name="link name" id="link name">
+                            </div>
                         </div>
+                    </li>
                     <li class="form__contact-list"><label for="E-mail Address">Email Address:<sup>*</sup></label>
                     <input type="email" name="E-mail Address" id="E-mail Address"></li>
                 </ul>
             </div>    
             <div class="form__question">
                 <ul class="form__question-menu">
-                    <li class="form__question-list"><label for="question">When is the best time to contact you?</label><br>
-                        <div class="form__radio">
-                            <input type="radio" name="radio1" value="morning"><span>Morning</span> 
-                            <input type="radio" name="radio1" value="Afternoon"><span>Afternoon</span>
-                            <input type="radio" name="radio1" value="Evening"><span>Evening</span> 
+                    <li class="form__question-list" style="display: flex;">
+                        <label for="question">When is the best time to contact you?</label><br>
+                        <div style="display: flex; flex-direction: column;">
+                            <div>
+                                <input style="width:auto;" type="radio" name="radio1" value="morning">
+                                <span>Morning</span> 
+                            </div>   
+                            <div>
+                                <input style="width:auto;" type="radio" name="radio1" value="Afternoon">
+                                <span>Afternoon</span>
+                            </div>
+                            <div>
+                                <input style="width:auto;" type="radio" name="radio1" value="Evening">
+                                <span>Evening</span>
+                            </div>     
                         </div>
                     </li>
-                    <li class="form__question-list"><label for="question">What is the best way to contact you?</label><br>
-                        <div class="form__radio">
-                            <input type="radio" name="radio2" value="phone"><span>Phone</span>
-                            <input type="radio" name="radio2" value="email"><span>Email</span> 
-                            <input type="radio" name="radio2" value="Fax"><span>Fax</span> 
+                    <li class="form__question-list" style="display: flex;">
+                        <label for="question">What is the best way to contact you?</label><br>
+                        <div style="display: flex; flex-direction: column;">
+                            <div>
+                                <input style="width: auto;" type="radio" name="radio2" value="phone"><span>Phone</span>
+                            </div>
+                            <div>
+                                <input style="width: auto;" type="radio" name="radio2" value="email"><span>Email</span>
+                            </div>
+                            <div>
+                                <input style="width: auto;" type="radio" name="radio2" value="Fax"><span>Fax</span> 
+                            </div>
                         </div>
                     </li>
-                    <li class="form__question-list"><label for="msg">Message:</label>
+                    <li class="form__question-list" style="display: flex;">
+                        <label for="msg">Message:</label>
+                        <div class="form__message">
                         <textarea name="msg" id="message" cols="30" rows="10"></textarea>
+                        </div>
                     </li>
                 </ul>
             </div>
