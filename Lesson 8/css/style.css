@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1450px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: Roboto;
+}
+
+/*HEADER*/
+.header__inner {
+  display: flex;
+  padding: 48px 0 0 0;
+  position: relative;
+}
+
+.header__menu {
+  display: flex;
+  margin: 0 0 0 97px;
+}
+
+.header__menu-list {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #1B0A42;
+  margin-right: 40px;
+  transition: all 0.3s;
+}
+
+.header__menu-list:first-child {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: bold;
+}
+
+.header__menu-list:hover {
+  color: #5353f3;
+}
+
+.header__button {
+  position: absolute;
+  right: 0;
+  top: 30px;
+}
+
+.header__button-in {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #1B0A42;
+  border: none;
+  cursor: pointer;
+  background: white;
+}
+
+.header__button-in:hover {
+  color: #ee9324;
+}
+
+.header__button-up {
+  margin-left: 40px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  width: 120px;
+  height: 59.65px;
+  left: 1412.26px;
+  top: 30px;
+  background: #FC569A;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.header__button-up:hover {
+  background: #e074ae;
+}
+
+/*WORK*/
+.work__inner {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+  padding: 133px 0 0 112px;
+}
+
+.work__title {
+  width: 500px;
+  font-family: Ramaraja;
+  font-size: 72px;
+  line-height: 76px;
+  letter-spacing: 0.02em;
+  color: #1B0A42;
+  margin-bottom: 25px;
+}
+
+.work__text {
+  width: 530px;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  color: #9A9A9A;
+  margin-bottom: 50px;
+}
+
+.work__button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  width: 152px;
+  height: 63.82px;
+  left: 200px;
+  top: 588.71px;
+  background: #FC569A;
+  border-radius: 6px;
+}
+
+.work__button:hover {
+  background-color: fuchsia;
+}
+
+.work__img {
+  position: relative;
+  right: -50px;
+}
+/*# sourceMappingURL=style.css.map */
